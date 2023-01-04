@@ -102,6 +102,12 @@ $imagelist = ($config['newest_first'] === true) ? array_reverse($images) : $imag
 			<?php if($config['cups_button']): ?>
 				<a id="cups-button" class="btn cups-button" href="#" target="newwin"><span>CUPS</span></a>
 			<?php endif; ?>
+
+			<?php if($config['show_logo']): ?>
+				<div>
+					<img src="resources/img/logo.png" alt="logo" style="position:absolute;right:0px;bottom:0px;width:300px;">
+				</div>
+			<?php endif; ?>
 		</div>
 
 		<!-- image Filter Pane -->
