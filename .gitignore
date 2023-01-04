@@ -8,7 +8,6 @@ trash
 package-lock.json
 /.htaccess
 .htpasswd
-config/my.config.inc.php
 *.patch
 resources/css/admin.css
 resources/css/style.css
